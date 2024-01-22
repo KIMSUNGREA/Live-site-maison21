@@ -1,0 +1,128 @@
+@media screen and (max-width: 1360px) {
+    .header_box nav.pc { margin-left: 100px;}
+    .header_box nav.pc ul { display: flex; column-gap: 100px;}
+}
+@media screen and (max-width: 1248px) {
+    .header_box nav.pc { margin-left: 80px;}
+    .header_box nav.pc ul { column-gap: 80px;}
+}
+@media screen and (max-width: 1200px) {
+    .header_box nav.pc { margin-left: 80px;}
+}
+@media screen and (min-width: 1140px) {
+    .mob { display: none!important; }
+}
+@media screen and (max-width: 1140px) {
+    /* 공통 */
+     footer { flex-direction: column;}
+    .pc { display: none!important; }
+     header { line-height: unset; padding: 20px 0; top: 0;}
+    .header_box h1 { margin: 0 auto;}
+    .header_box { justify-content: space-between;}
+    .header_wrap { padding: 0 40px;}
+    .mob_menu_list { top: 67px;}
+    .main_wrap { width: 100%; padding: 0 40px; max-width: unset;}
+    footer .pc_logo, footer address { text-align: center;}
+    footer .pc_logo { padding: 0 40px;}
+    footer .pc_logo img { width: 160px;}
+    footer address { margin-top: 30px;}
+
+    .sub_tit_box { left: 40px;}
+
+    /* 메인 섹션2 */
+    .sec2 .sec2_box dt { align-self: start; order: 2; margin-top: 20px;}
+    .sec2 .sec2_box dd { padding-top: 30px;}
+
+    /* 메인 섹션3 */
+    .sec3 .list { column-gap: 30px;}
+
+    /* 메인 섹션4 */
+.sec4 .check_box .rd_box.flex { flex-direction: column; row-gap: 16px;}
+    .sec4 .check_box dl { display: block;}
+    .sec4 .check_box > dl > dt { margin-bottom: 20px;}
+    .sec4 .check_box .rd_box dl { display: flex; justify-content: flex-start;}
+    .sec4 .check_box dd .text, .sec4 .check_box > dl > dd { width: 100%;}
+
+    /* 서비스,제품 */
+    .common_hd { padding: 50px 0 50px;}
+    .common_hd dl dt { align-items: center;}
+    .common_hd dl dd { flex-direction: column;}
+    .common_hd dl figure span.left { margin-bottom: 38px; text-align: end;}
+    .common_hd dl figure.wo { width: 100%;}
+
+    .sub_tit_box h2 { margin-bottom: 20px;}
+
+    .sec4 { padding: 50px 0;}
+
+
+}
+@media screen and (max-width: 960px) {
+    /* 공통 */
+    .header_wrap, .mob_menu_list, .main_wrap { padding: 0 20px;}
+    footer .pc_logo { padding: 0 20px;}
+    .sub_tit_box { left: 20px;}
+
+    /* 메인 섹션2 */
+    .sec2 { padding: 10px 0 70px 0;}
+    .sec2 .sec2_box { flex-direction: column; row-gap: 30px;}
+    .sec2 .sec2_box dt, .sec2 .sec2_box dd { align-self: center;}
+
+    /* 메인 섹션4 */
+    .sec4 .check_box { padding: 50px;}
+
+}
+@media screen and (max-width: 820px) {
+    /* 공통 */
+    html, body { font-size: 14px;}
+
+    /* 메인 섹션3 */
+    .sec3 { padding-top: 50px; height: 1500px;}
+    .sec3 .list { width: 100%; flex-direction: column; align-items: center; row-gap: 20px;}
+    .sec3 .list li { width: 100%;}
+    .sec3 .list li figure { height: 360px;}
+    .sec3 .list li figure img { width: 100%; height: 100%; object-fit: cover;}
+}
+@media screen and (min-width: 750px) {
+    .sec1_mob { display: none!important; }
+}
+
+@media screen and (max-width: 750px) {
+   .sec1_pc { display: none!important;}
+   /* 메인 섹션1 */
+    .sec1 { height: 800px;}
+   .text_box h2 { margin-bottom: 56px;}
+
+}
+@media screen and (max-width: 480px) {
+    /* 공통 */
+    html, body { font-size: 12px;}
+    .header_box h1 a { width: 166px; height: 48.5px;}
+    .mob_menu_list { top: 68px;}
+    .tit p { font-size: 1.2rem;}
+    .sub_tit { height: 400px;}
+    .sub_tit_box { bottom: 90px;}
+    footer { padding: 50px 0;}
+
+    /* 메인 섹션1 */
+    .text_box { bottom: 200px; left: 40px;}
+    .text_box h2 { margin-bottom: 20px;}
+    .text_box p { line-height: 1.6;}
+
+    /* 메인 섹션2 */
+    .sec2 .sec2_box dt p:nth-of-type(1) { margin-bottom: 20px;}
+    .sec2 .sec2_box dt p { font-size: 1.2rem;}
+    .sec2 h3 { margin-top: 0;}
+    
+    /* 메인 섹션4 */
+    .sec4 .check_box .rd_box input, .check { width: 18px; height: 18px;}
+    .sec4 .check_box { padding: 30px;}
+    .send { width: 100%; line-height: 70px;}
+    .sec4 { padding: 50px 0 70px 0;}
+    .sec4 .check_box .rd_box.mob_st { flex-direction: column; align-items: baseline; row-gap: 20px;}
+    .sec4 .check_box dl .ck { justify-content: start;}
+
+    .popup { width: 100%; padding: 20px;}
+    /* sub2 */
+    .sec3.sub { padding-bottom: 70px;}
+	.sec3.sub2 { padding-bottom: 70px;}
+}
